@@ -12,8 +12,16 @@ export default {
       'gray':'#D9D9D9',
       'white':'#ffffff',
       'black':'#000000',
+      'off-white':'#DEDEDE',
+      'italic-gray':'#524F59',
+      'dark-gray': '#C8C8C8',
     },
     extend: {
+      scale: {
+        '175': '1.75',
+        '200': '2.00',
+        '300': '3.00',
+      },
       spacing: {
         '-0.25': '-0.25rem', //negative spacing
       },
