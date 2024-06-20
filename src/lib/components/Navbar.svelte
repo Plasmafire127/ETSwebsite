@@ -3,32 +3,38 @@
 </script>
 
 
-<nav class = "bg-nav-purple fixed w-full shadow-md z-50">
-    <div class = "font-plex-mono flex px-10 h-20 items-center">
-        <a href="/" class = "font-keania-one text-white text-6xl">
-            ETS
-        </a>
-        <a href="/" class="flex flex-col font-plex-mono text-white text-lg basis-7/12">
-            <p style="margin-bottom: -0.35rem; margin-top:-0.35rem">
-                Emerging
-            </p>
-            <p style="margin-bottom: -0.35rem; margin-top:-0.35rem">
-                Technology
-            </p>
-            <p style="margin-bottom: -0.35rem; margin-top:-0.35rem">
-                Studio
-            </p>
-        </a>
-        <div class="basis-4/12 flex flex-row justify-between items-center text-orange text-2xl space-x-10">
-                <Dropdown/>
-            <div>
-                About
+<nav class = "bg-nav-purple fixed w-screen shadow-md z-20">
+    <div class = "font-plex-mono flex md:px-10 px-2 h-20 items-center">
+        <div class="flex flex-row w-1/4 justify-start">
+            <a href="/" class = "font-keania-one text-white md:text-6xl text-4xl">
+                ETS
+            </a>
+            <div class="md:visible invisible flex">
+                <a href="/" class="flex flex-col font-plex-mono text-white md:text-lg text-xs text-left">
+                    <p style="margin-bottom: -0.3rem; margin-top:-0.3rem">
+                        Emerging
+                    </p>
+                    <p style="margin-bottom: -0.3rem; margin-top:-0.3rem">
+                        Technology
+                    </p>
+                    <p style="margin-bottom: -0.3rem; margin-top:-0.3rem">
+                        Studio
+                    </p>
+                </a>
             </div>
-            <div>
-                Location
-            </div> 
-            <div>
-                Contact
+        </div>
+        <div class="flex flex-row w-3/4 justify-end">
+            <div class="flex flex-row items-center text-orange md:text-2xl text-xs space-x-5 md:space-x-10">
+                    <Dropdown/>
+                <div>
+                    About
+                </div>
+                <div>
+                    Location
+                </div> 
+                <div>
+                    Contact
+            </div>
         </div>
     </div>
 </nav>

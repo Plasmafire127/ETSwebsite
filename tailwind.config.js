@@ -25,6 +25,9 @@ export default {
       spacing: {
         '-0.25': '-0.25rem', //negative spacing
       },
+      fontSize: {
+        'xxs': '1rem',
+      },
       fontFamily: {
         'plex-mono': ['IBM Plex Mono', 'monospace'],
         'space-grotesk':['Space Grotesk','monospace'],

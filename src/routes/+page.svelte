@@ -1,25 +1,25 @@
 <script>
 	import craft from '$lib/images/cricut.png';
   import printer from '$lib/images/printer.jpg';
-  import vr from '$lib/images/vr.jpg';
+  import vr from '$lib/images/vr.jpg'
+  import HomepageCard from '$lib/components/HomepageCard.svelte';
 </script>
 
-
 <div class="font-plex-mono flex flex-col items-center justify-center h-screen text-center text-orange">
-  <p class="mt-10 text-4xl font-bold">
+  <p class="mt-10 md:text-4xl text-xl font-bold">
     Welcome to the...
   </p>
-  <p class="font-space-grotesk font-bold text-7xl">
+  <p class="font-space-grotesk font-bold md:text-7xl text-3xl">
     Emerging Technology Studio!
   </p>
-  <p class="mt-40 text-4xl font-bold text-green">
+  <p class="md:mt-40 mt-20 md:text-4xl text-xl font-bold text-green">
     Binghamton University's
   </p>
-  <p class="mt-2 text-4xl font-bold">
+  <p class="mt-2 md:text-4xl text-xl font-bold">
     Premier Makerspace.
   </p>
-  <div class="mt-5 font-plex-mono text-2xl font-bold bg-nav-purple rounded-full w-auto h-auto py-2 px-6">
-    Get Started >
+  <div class="mt-5 font-plex-mono md:text-2xl text-lg font-bold bg-nav-purple rounded-full w-auto h-auto py-2 px-6">
+    Get Started &gt;
   </div>
 </div>
 
@@ -27,80 +27,38 @@
   <hr class="border-white w-11/12">
 </div>
 
-<div class="font-plex-mono flex flex-col h-screen text-orange">
-  <p class="text-white text-6xl font-bold mx-10 mt-32">
+<div class="font-plex-mono flex flex-col h-screen w-screen text-orange">
+  <p class="flex text-white md:h-1/4 md:pt-0 pt-10 items-end md:text-6xl text-xl font-bold md:mx-10 mx-5">
     OUR SERVICES
   </p>
-  <div class="flex flex-row justify-center h-screen space-x-20 items-center mx-10 text-black font-bold">
-    <div class="bg-off-white rounded-3xl text-center w-1/4 h-3/4 content-center flex flex-col justify-center">
-      <img class="items-center mx-10 h-1/3 border-2 border-black" alt="printing" src={printer}/>
-      <div class="my-5 mx-10 h-1/2 text-left space-y-5">
-        <p class="text-4xl">3D Printing</p>
-        <p class="text-2xl italic font-bold text-italic-gray">Think it. Print it.</p>
-        <div>
-          <ls class="text-xl">
-            <li>
-              PLA Printing
-            </li>
-            <li>
-              Resin Printing
-            </li>
-            <li>
-              Multi-color Printing
-            </li>
-          </ls>
-      </div>
-      <div class="font-plex-mono text-orange text-xl font-bold bg-nav-purple w-fit rounded-full p-2 px-4 content-center">
-        Print Now! >
-      </div>
-      </div>
-    </div>
-    <div class="bg-off-white rounded-3xl text-center w-1/4 h-3/4 content-center flex flex-col justify-center">
-      <img class="items-center mx-10 h-1/3 border-2 border-black" alt="crafting" src={craft}/>
-      <div class="my-5 mx-10 h-1/2 text-left space-y-5">
-        <p class="text-4xl">2D Crafts</p>
-        <p class="text-2xl italic font-bold text-italic-gray">Craft, Cut, Create!</p>
-        <div>
-          <ls class="text-xl">
-            <li>
-              Cricut
-            </li>
-            <li>
-              Stickers & Iron-on
-            </li>
-            <li>
-              CardStock, Vinyl, etc.
-            </li>
-          </ls>
-      </div>
-      <div class="font-plex-mono text-orange text-xl font-bold bg-nav-purple w-fit rounded-full p-2 px-4 content-center">
-        Craft Now! >
-      </div>
-      </div>
-    </div>
-    <div class="bg-off-white rounded-3xl text-center w-1/4 h-3/4 content-center flex flex-col justify-center">
-      <img class="items-center mx-10 h-1/3 border-2 border-black" alt="Virtual Reality" src={vr}/>
-      <div class="my-5 mx-10 h-1/2 text-left space-y-5">
-        <p class="text-4xl">Technology</p>
-        <p class="text-2xl italic font-bold text-italic-gray">Immersive Experiences.</p>
-        <div>
-          <ls class="text-xl">
-            <li>
-              Virtual Reality (VR/AR)
-            </li>
-            <li>
-              360&#176; Media and Scanning
-            </li>
-            <li>
-              Adobe Software
-            </li>
-          </ls>
-      </div>
-      <div class="font-plex-mono text-orange text-xl font-bold bg-nav-purple w-fit rounded-full p-2 px-4 content-center">
-        Explore Now! >
-      </div>
-      </div>
-    </div>
+  <div class="flex md:flex-row flex-col justify-center h-full w-screen items-center md:space-x-20 space-x-5 md:space-y-0 space-y-10 text-black font-bold">
+    <HomepageCard
+    image={printer}
+    header="3D Printing"
+      motto="Think it. Print it."
+      one="PLA Printing"
+      two="Resin Printing"
+      three="Multi-color Printing"
+      link="Print Now!"
+    /> 
+    <HomepageCard 
+      image={craft}
+      header="2D Crafts"
+      motto="Craft, Cut, Create!"
+      one="Cricut"
+      two="Stickers & Iron-on"
+      three="CardStock, Vinyl, etc."
+      link="Craft Now!"
+    /> 
+    <HomepageCard 
+      image={vr}
+      header="Technology"
+      motto="Immersive Experiences."
+      one="Virtual Reality (VR/AR)"
+      two="360&#176; Media and Scanning"
+      three="Adobe Software"
+      link="Experience Now!"
+    /> 
   </div>
 </div>
 
