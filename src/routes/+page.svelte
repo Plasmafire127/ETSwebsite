@@ -1,8 +1,8 @@
 <script>
 	import craft from '$lib/images/cricut.png';
-  import craftSquare from '$lib/images/cricutSquare.png'
+  import craftSquare from '$lib/images/cricutSquare.png';
   import printer from '$lib/images/printer.jpg';
-  import vr from '$lib/images/vr.jpg'
+  import vr from '$lib/images/vr.jpg';
   import vrSquare from '$lib/images/vrSquare.png';
   import HomepageCard from '$lib/components/HomepageCard.svelte';
   import HomepageCardMobile from '$lib/components/HomepageCardMobile.svelte';
@@ -31,10 +31,10 @@
 </div>
 
 <div class="font-plex-mono flex flex-col h-screen w-screen text-orange">
-  <p class="flex text-white md:h-1/4 md:pt-0 pt-10 items-end md:text-6xl text-xl font-bold md:mx-20 mx-5">
+  <p class="flex text-white md:h-1/6 md:pt-0 pt-10 items-end md:text-6xl text-xl font-bold md:px-20 px-5">
     OUR SERVICES
   </p>
-  <div class="md:block hidden h-full w-screen">
+  <div class="md:block hidden h-5/6 w-screen">
     <div class="flex md:flex-row flex-col justify-center h-full w-screen items-center space-x-20 text-black font-bold"> 
       <HomepageCard
       image={printer}

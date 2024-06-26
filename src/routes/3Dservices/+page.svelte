@@ -4,7 +4,7 @@
     import ServicesCardSquare from '$lib/components/ServicesCardSquare.svelte';
     import ServicesCardLargeMobile from '$lib/components/ServicesCardLargeMobile.svelte';
     import Overview from '$lib/components/Overview.svelte';
-    import printer from '$lib/images/printer.jpg';
+    import temp from '$lib/images/temp.png';
     let rightoneArray = ["Prusa", "Bambu", "Voron", "Ender", "Form 3"];
     let righttwoArray = ["PLA", "TPU", "PETG", "ABS", "SLA"];
 </script>
@@ -80,9 +80,9 @@
   <hr class="border-white w-11/12">
 </div>
 
-<div class="font-plex-mono flex flex-col items-center justify-start h-screen text-center text-orange">
+<div class="font-plex-mono flex flex-col h-screen text-orange">
     <Overview 
-    image = {printer}
+    image = {temp}
     header = "3D PRINT OVERVIEW"
     subheaderone = "How to Request"
     paragraphone = 
@@ -101,3 +101,8 @@
 "
     />
 </div>
+
+<div class="flex justify-center">
+  <hr class="border-white w-11/12">
+</div>
+
