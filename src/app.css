@@ -1,6 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/**
+Fixes width scroll issue but causes screen divisions to be off center
+body {
+  @apply overflow-x-hidden;
+}
+**/
+
 @font-face {
      font-family: 'IBM Plex Mono';
   src: url('/src/fonts/IBMPlexMono/IBMPlexMono-Regular.ttf') format('truetype');
@@ -8,7 +16,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 
 @font-face {
   font-family: 'IBM Plex Mono';

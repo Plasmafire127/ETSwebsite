@@ -1,7 +1,7 @@
 <script>
     export let header;
 </script>
-<div class="flex flex-col bg-off-white rounded-xl text-black text-4xl font-bold space-y-5 w-full p-5">
+<div class="flex flex-col bg-off-white rounded-xl text-black md:text-4xl text-xs font-bold space-y-5 w-full p-5">
     <p>{header}</p>
     <hr class="border-2">
     <div class="flex flex-row w-full">

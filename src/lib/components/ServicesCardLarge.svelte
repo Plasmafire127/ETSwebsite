@@ -21,7 +21,7 @@
         <p class="flex h-1/3 items-center">{leftthree}</p>
     </div>
 
-    <div class="flex flex-col w-full text-xl font-bold text-black justify-center">
+    <div class="flex flex-col w-full text-xl font-bold text-black justify-center overflow-auto">
         <div class="flex flex-row h-1/3 items-center justify-start space-x-5">
             {#each rightone as rightone (rightone)}
             <div class="bg-dark-gray rounded-lg px-5 py-2">

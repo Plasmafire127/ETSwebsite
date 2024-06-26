@@ -3,7 +3,7 @@
 </script>
 
 
-<nav class = "bg-nav-purple fixed w-screen shadow-md z-20">
+<nav class = "bg-nav-purple md:fixed w-screen shadow-md z-20">
     <div class = "font-plex-mono flex md:px-10 px-2 h-20 items-center">
         <div class="flex flex-row w-1/4 justify-start">
             <a href="/" class = "font-keania-one text-white md:text-6xl text-4xl">
