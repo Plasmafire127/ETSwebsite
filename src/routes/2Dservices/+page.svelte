@@ -5,10 +5,9 @@
     import ServicesCardLargeMobile from '$lib/components/ServicesCardLargeMobile.svelte';
     import Overview from '$lib/components/Overview.svelte';
     import temp from '$lib/images/temp.png';
-    import PrinterEquipment from '$lib/components/PrinterEquipment.svelte';
-    import IndividualEquipment from '$lib/components/IndividualEquipment.svelte';
-    let rightoneArray = ["Prusa", "Bambu", "Voron", "Ender", "Form 3"];
-    let righttwoArray = ["PLA", "TPU", "PETG", "ABS", "SLA"];
+    import CraftEquipment from '$lib/components/CraftEquipment.svelte';
+    let rightoneArray = ["Stickers", "Vinyl", "Iron-on", "Cardstock"];
+    let righttwoArray = ["Lamination", "Custom Decal"];
 </script>
 
 <div class="font-plex-mono flex flex-col items-center justify-start h-1/2 text-center text-orange">
@@ -31,8 +30,8 @@
 
             <div class="h-2/3 mt-auto flex flex-col">
             <ServicesCardLarge
-            leftone = "3D Printers"
-            lefttwo = "Material"
+            leftone = "2D Products"
+            lefttwo = "Extras"
             leftthree = "Color"
             rightone = {rightoneArray}
             righttwo = {righttwoArray}
@@ -65,12 +64,12 @@
         
             <div class="flex flex-col">
             <ServicesCardLargeMobile
-                leftone = "3D Printers"
-                lefttwo = "Material"
+                leftone = "2D Products"
+                lefttwo = "Extras"
                 leftthree = "Color"
-                rightone = "Click to select printer"
+                rightone = "Click to select product"
                 logoone = "fa-solid fa-cubes"
-                righttwo = "Click to select material"
+                righttwo = "Click to select extra options"
                 logotwo = "fa-solid fa-layer-group"
                 rightthree = "Click to select color"
                 logothree = "fa-solid fa-droplet" />
@@ -117,14 +116,14 @@
 </div>
 
 <div class="h-full w-screen">
-    <PrinterEquipment/>
+    <CraftEquipment/>
 </div>
 
 <div class="flex justify-center">
   <hr class="border-white w-11/12">
 </div>
 
-<div class="flex flex-col w-screen h-full font-plex-mono text-white font-bold md:px-20 px-5 pb-10">
+<div class="flex flex-col w-screen h-full font-plex-mono text-white font-bold md:px-20 px-5 pb-32">
     <p class="flex md:text-6xl text-3xl w-full items-end custom-height-md md:pt-0 pt-10">
         New to 3D Printing?
     </p>
@@ -132,24 +131,24 @@
         <div class="md:hidden flex w-full h-full justify-center mb-10">
             <img class="h-full w-1/2 object-cover" alt="thumbnail" src={temp}/>
         </div>
-        <div class="md:w-1/2 w-full h-full">
+        <div class="md:w-2/3 w-full h-full">
             <p class="italic md:text-4xl text-xl">
                 Come VISIT US at the TECH HUB!
             </p>
-            <p class="pl-10 text-orange text-base">
+            <p class="pl-10 text-orange md:text-xl text-base">
                 Walk-ins are encouraged! ALL Binghamton University students, staff, and faculty may use our resources!
             </p>
             <p class="mt-5 italic md:text-4xl text-xl">
                 Resources
             </p>
-            <div class="flex flex-col pl-10 text-orange text-base">
+            <div class="flex flex-col pl-10 text-orange md:text-xl text-base">
                 <p>1. Guide to 3D Printing - <span class="italic">article</span></p>
                 <p>2. What is 3D Printing and How Does it Work? | Mashable Explains - <span class="italic">video</span></p>
                 <p>3. Thingiverse - <span class="italic">free 3D models</span></p>
                 <p>4. Thangs - <span class="italic">free 3D models</span></p>
             </div>
         </div>
-        <div class="md:flex hidden w-1/2 h-full justify-center">
+        <div class="md:flex hidden w-1/3 h-full justify-center">
             <img class="h-full w-1/2 object-cover" alt="thumbnail" src={temp}/>
         </div>
     </div>

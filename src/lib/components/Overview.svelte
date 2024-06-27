@@ -15,13 +15,13 @@
         <p class="font-bold italic md:text-5xl text-xl">
             {subheaderone}
         </p>
-        <p class="md:whitespace-pre whitespace-pre-line text-base">
+        <p class="md:whitespace-pre whitespace-pre-line md:text-xl text-base">
             {paragraphone}
         </p>
         <p class="font-bold italic md:text-5xl text-xl mt-10">
             {subheadertwo}
         </p>
-        <p class="md:whitespace-break-spaces whitespace-pre-line text-base">
+        <p class="md:whitespace-break-spaces whitespace-pre-line md:text-xl text-base">
             {paragraphtwo}
         </p>
     </div>

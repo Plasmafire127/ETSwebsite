@@ -37,7 +37,7 @@
            {/each}
         </div>
         <div class="flex flex-row h-1/3 items-center justify-start space-x-5">
-            <div class="bg-dark-gray rounded-lg w-2/3 px-5 py-2 text-left hover:scale-105 transition-transform duration-300 ease-in-out transform">
+            <div class="bg-dark-gray rounded-lg px-5 py-2 text-left hover:scale-105 transition-transform duration-300 ease-in-out transform">
                 <i class={logo}></i> {rightthree}
             </div>
         </div>
