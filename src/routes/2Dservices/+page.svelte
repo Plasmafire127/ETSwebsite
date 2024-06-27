@@ -17,13 +17,13 @@
         <div class="hidden w-2/3 md:flex flex-col">
             <div class="flex flex-row h-1/4 space-x-10">
             <ServicesCardSmall
-            color="bg-orange" 
-            href="./3Dservices"
+            color="bg-off-white"
+            href="./3Dservices" 
             logo="fa-solid fa-cube"
             text = "3D Prints"/>
 
             <ServicesCardSmall
-            color="bg-off-white"
+            color="bg-orange"
             href="./2Dservices"
             logo="fa-solid fa-compass-drafting"
             text="2D Crafts"/>
@@ -50,15 +50,15 @@
 
         <div class="md:hidden w-full flex flex-col h-full space-y-5">
             <div class="flex flex-row space-x-5">
-            <ServicesCardSmall 
-            color="bg-orange"
-            href="./3Dservices"
+            <ServicesCardSmall
+            color="bg-off-white" 
+            href="./3Dservices" 
             logo="fa-solid fa-cube"
             text = "3D Prints"/>
 
             <ServicesCardSmall
-            color="bg-off-white"
-            href="./2Dservices"
+            color="bg-orange"
+            href="./2Dservices" 
             logo="fa-solid fa-compass-drafting"
             text="2D Crafts"/>
             </div>
@@ -93,15 +93,14 @@
 <div class="flex flex-col md:h-screen h-full w-screen text-orange">
     <Overview 
     image = {temp}
-    header = "3D PRINT OVERVIEW"
+    header = "2D CRAFTS OVERVIEW"
     subheaderone = "How to Request"
     paragraphone = 
 "
-1. Have your file in either STL, 3MF, or STEP.
+1. Have your file in either PNG, JPEG, or SVG.
 2. Send us an email to etsbing@binghamton.edu.
     &#8226; Attach the file.
-    &#8226; Specify color and material.
-    &#8226; Optionally, specify infill, strength, etc.
+    &#8226; See below for more specific description.
 3. Wait for our response email.
 4. Visit the ETS at the Tech hub!"
     subheadertwo = "how to Pay"

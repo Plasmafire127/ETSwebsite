@@ -31,7 +31,7 @@
 </div>
 
 <div class="font-plex-mono flex flex-col h-screen w-screen text-orange">
-  <p class="flex text-white md:h-1/6 md:pt-0 pt-10 items-end md:text-6xl text-xl font-bold md:px-20 px-5">
+  <p class="flex text-white md:h-1/6 md:pt-0 pt-10 items-end md:text-6xl text-3xl font-bold md:px-20 px-5">
     OUR SERVICES
   </p>
   <div class="md:block hidden h-5/6 w-screen">
