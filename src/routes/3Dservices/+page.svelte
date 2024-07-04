@@ -6,6 +6,7 @@
     import Overview from '$lib/components/Overview.svelte';
     import temp from '$lib/images/temp.png';
     import PrinterEquipment from '$lib/components/PrinterEquipment.svelte';
+    import Separator from '$lib/components/Separator.svelte';
     let rightoneArray = ["Prusa", "Bambu", "Voron", "Ender", "Form 3"];
     let righttwoArray = ["PLA", "TPU", "PETG", "ABS", "SLA"];
 </script>
@@ -85,9 +86,7 @@
     </div>
 </div>
 
-<div class="flex justify-center">
-  <hr class="border-white w-11/12">
-</div>
+<Separator/>
 
 <div class="flex flex-col md:h-screen h-full w-screen text-orange">
     <Overview 
@@ -112,17 +111,13 @@
     />
 </div>
 
-<div class="flex justify-center">
-  <hr class="border-white w-11/12">
-</div>
+<Separator/>
 
 <div class="h-full w-screen">
     <PrinterEquipment/>
 </div>
 
-<div class="flex justify-center">
-  <hr class="border-white w-11/12">
-</div>
+<Separator/>
 
 <div class="flex flex-col w-screen h-full font-plex-mono text-white font-bold md:px-20 px-5 pb-32">
     <p class="flex md:text-6xl text-3xl w-full items-end custom-height-md md:pt-0 pt-10">
@@ -153,9 +148,5 @@
             <img class="h-full w-1/2 object-cover" alt="thumbnail" src={temp}/>
         </div>
     </div>
-</div>
-
-<div class="flex justify-center">
-  <hr class="border-white w-11/12">
 </div>
 

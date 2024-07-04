@@ -6,29 +6,29 @@
   import vrSquare from '$lib/images/vrSquare.png';
   import HomepageCard from '$lib/components/HomepageCard.svelte';
   import HomepageCardMobile from '$lib/components/HomepageCardMobile.svelte';
+  import Separator from '$lib/components/Separator.svelte';
 </script>
 
 <div class="font-plex-mono flex flex-col items-center justify-center w-screen h-screen text-center text-orange">
-  <p class="mt-10 md:text-4xl text-xl font-bold">
+  <p class="mt-10 md:text-4xl text-xl">
     Welcome to the...
   </p>
   <p class="font-space-grotesk font-bold md:text-7xl text-3xl">
     Emerging Technology Studio!
   </p>
-  <p class="md:mt-40 mt-20 md:text-4xl text-xl font-bold text-green">
+  <p class="md:mt-40 mt-20 md:text-4xl text-xl  text-green">
     Binghamton University's
   </p>
-  <p class="mt-2 md:text-4xl text-xl font-bold">
+  <p class="mt-2 md:text-4xl text-xl ">
     Premier Makerspace.
   </p>
-  <div class="mt-5 font-plex-mono md:text-2xl text-lg font-bold bg-nav-purple rounded-full w-auto h-auto py-2 px-6">
+  <div class="mt-5 font-plex-mono md:text-2xl text-lg  bg-nav-purple rounded-full w-auto h-auto py-2 px-6">
     Get Started &gt;
   </div>
 </div>
 
-<div class="flex justify-center">
-  <hr class="border-white w-11/12">
-</div>
+
+<Separator/>
 
 <div class="font-plex-mono flex flex-col h-screen w-screen text-orange">
   <p class="flex text-white md:h-1/6 md:pt-0 pt-10 items-end md:text-6xl text-3xl font-bold md:px-20 px-5">
@@ -99,9 +99,3 @@
   </div>
 
 </div>
-
-
-<div class="flex justify-center">
-  <hr class="border-white w-11/12">
-</div>
-
