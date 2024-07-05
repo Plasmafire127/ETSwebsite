@@ -11,17 +11,17 @@
             <img class="h-full md:w-full object-contain" alt="thumbnail" src={image}/> 
         </div>
     </div>
-    <div class="flex flex-col h-full text-left text-white md:text-xl text-base md:pr-20 md:py-20 py-10 md:ml-5 md:justify-center">
-        <p class="font-bold italic md:text-5xl text-xl">
+    <div class="flex flex-col h-full w-2/3 text-left text-white font-bold md:text-xl text-base md:pr-20 md:py-20 py-10 md:ml-5 md:justify-center">
+        <p class="italic md:text-5xl text-xl">
             {subheaderone}
         </p>
-        <p class="md:whitespace-pre whitespace-pre-line md:text-xl text-base">
+        <p class="whitespace-pre-line text-orange pl-5">
             {paragraphone}
         </p>
-        <p class="font-bold italic md:text-5xl text-xl mt-10">
+        <p class="italic md:text-5xl text-xl mt-10">
             {subheadertwo}
         </p>
-        <p class="md:whitespace-break-spaces whitespace-pre-line md:text-xl text-base">
+        <p class="md:whitespace-break-spaces whitespace-pre-line text-orange pl-5">
             {paragraphtwo}
         </p>
     </div>

@@ -93,18 +93,14 @@
     image = {temp}
     header = "2D CRAFTS OVERVIEW"
     subheaderone = "How to Request"
-    paragraphone = 
-"
-1. Have your file in either PNG, JPEG, or SVG.
+    paragraphone = "1. Have your file in either PNG, JPEG, or SVG.
 2. Send us an email to etsbing@binghamton.edu.
     &#8226; Attach the file.
     &#8226; See below for more specific description.
 3. Wait for our response email.
 4. Visit the ETS at the Tech hub!"
     subheadertwo = "how to Pay"
-    paragraphtwo =
-"
-1. We accept BUC$, which you can load here.
+    paragraphtwo = "1. We accept BUC$, which you can load here.
 2. Register with the Meal Plan Office if you do not have an account.
 "
     />
@@ -116,6 +112,7 @@
     <CraftEquipment/>
 </div>
 
+<<<<<<< Updated upstream
 <Separator/>
 
 <div class="flex flex-col w-screen h-full font-plex-mono text-white font-bold md:px-20 px-5 pb-32">
@@ -149,3 +146,8 @@
     </div>
 </div>
 
+=======
+<div class="flex justify-center">
+  <hr class="border-white w-11/12">
+</div>
+>>>>>>> Stashed changes

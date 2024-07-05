@@ -93,9 +93,7 @@
     image = {temp}
     header = "3D PRINTS OVERVIEW"
     subheaderone = "How to Request"
-    paragraphone = 
-"
-1. Have your file in either STL, 3MF, or STEP.
+    paragraphone = "1. Have your file in either STL, 3MF, or STEP.
 2. Send us an email to etsbing@binghamton.edu.
     &#8226; Attach the file.
     &#8226; Specify color and material.
@@ -103,9 +101,7 @@
 3. Wait for our response email.
 4. Visit the ETS at the Tech hub!"
     subheadertwo = "how to Pay"
-    paragraphtwo =
-"
-1. We accept BUC$, which you can load here.
+    paragraphtwo ="1. We accept BUC$, which you can load here.
 2. Register with the Meal Plan Office if you do not have an account.
 "
     />
