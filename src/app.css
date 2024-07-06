@@ -3,10 +3,7 @@
 @tailwind utilities;
 
 /**
-Fixes width scroll issue but causes screen divisions to be off center
-body {
-  @apply overflow-x-hidden;
-}
+background color purple = #231c24
 **/
 
 @media (min-width:768px) {
@@ -48,5 +45,5 @@ body {
 }
 
 body {
-  background-color: #231c24;
+  background-color: black;
 }

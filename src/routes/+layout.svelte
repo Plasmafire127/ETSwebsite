@@ -11,7 +11,7 @@ import "../app.css";
 </head>
 
     <!-- svelte-ignore a11y-media-has-caption -->
-  <div class="opacity-30 fixed h-screen w-screen object-cover z-0">
+  <div class="opacity-50 scale-50 -translate-y-52 fixed h-screen w-screen object-cover -z-10">
   <video autoplay loop playsinline disablepictureinpicture muted>
       <source src="videos/prusa.mp4" type="video/mp4">
       <tack kind="captions"></tack>
