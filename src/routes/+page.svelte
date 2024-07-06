@@ -19,10 +19,10 @@
   <p class="md:mt-40 mt-20 md:text-4xl text-xl text-green">
     Binghamton University's
   </p>
-  <p class="mt-2 md:text-4xl text-xl font-bold">
+  <p class="mt-2 md:text-4xl text-xl">
     Premier Makerspace.
   </p>
-  <div class="mt-5 font-plex-mono md:text-2xl text-lg font-bold bg-nav-purple rounded-full w-auto h-auto py-2 px-6">
+  <div class="mt-5 font-plex-mono md:text-2xl text-lg bg-nav-purple rounded-full w-auto h-auto py-2 px-6">
     Get Started &gt;
   </div>
 </div>
@@ -31,7 +31,7 @@
 <Separator/>
 
 <div class="font-plex-mono flex flex-col h-screen w-screen text-orange">
-  <p class="flex text-white md:h-1/6 md:pt-0 pt-10 items-end md:text-6xl text-3xl font-bold md:px-20 px-5">
+  <p class="flex text-white md:h-1/6 md:pt-0 pt-10 items-end md:text-5xl text-2xl font-bold md:px-20 px-5">
     OUR SERVICES
   </p>
   <div class="md:block hidden h-5/6 w-screen">

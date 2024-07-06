@@ -4,7 +4,7 @@
 </script>
 
 
-<div class="flex flex-col font-plex-mono text-white md:text-6xl text-3xl md:px-20 px-5 w-full md:pt-0 pt-10">
+<div class="flex flex-col font-plex-mono text-white md:text-5xl text-2xl md:px-20 px-5 w-full md:pt-0 pt-10">
     <p class="flex custom-height-md items-end font-bold">
         Our 2D Services
     </p>

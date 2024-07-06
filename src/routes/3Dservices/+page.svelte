@@ -116,7 +116,7 @@
 <Separator/>
 
 <div class="flex flex-col w-screen h-full font-plex-mono text-white font-bold md:px-20 px-5 pb-32">
-    <p class="flex md:text-6xl text-3xl w-full items-end custom-height-md md:pt-0 pt-10">
+    <p class="flex md:text-5xl text-2xl w-full items-end custom-height-md md:pt-0 pt-10">
         New to 3D Printing?
     </p>
     <div class="flex md:flex-row flex-col mt-10">
@@ -124,13 +124,13 @@
             <img class="h-full w-1/2 object-cover" alt="thumbnail" src={temp}/>
         </div>
         <div class="md:w-2/3 w-full h-full">
-            <p class="italic md:text-4xl text-xl">
-                Come VISIT US at the TECH HUB!
+            <p class="md:text-3xl text-lg">
+                Come visit us at the Technology Hub!
             </p>
             <p class="pl-10 text-orange md:text-xl text-base">
                 Walk-ins are encouraged! ALL Binghamton University students, staff, and faculty may use our resources!
             </p>
-            <p class="mt-5 italic md:text-4xl text-xl">
+            <p class="mt-5 italic md:text-3xl text-lg">
                 Resources
             </p>
             <div class="flex flex-col pl-10 text-orange md:text-xl text-base">

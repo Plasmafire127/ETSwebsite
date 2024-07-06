@@ -1,0 +1,82 @@
+<script>
+    import Overview from '$lib/components/Overview.svelte';
+    import temp from '$lib/images/temp.png';
+    import TechnologyEquipment from '$lib/components/TechnologyEquipment.svelte';
+</script>
+
+<div class="flex flex-col md:h-screen h-full w-screen text-orange">
+    <Overview 
+    image = {temp}
+    header = "TECHNOLOGY OVERVIEW"
+    subheaderone = "Come visit us at the Technology Hub!"
+    paragraphone = "Walk-ins are encouraged! Email us at ets@binghamton.edu if you want to learn about a specific skill, software, or technology. All Binghamton University students, staff, and faculty are welcome!"
+    subheadertwo = "Services Available"
+    paragraphtwo = "&#8226; Soldering Equipment
+&#8226; Meta Quest 3s
+&#8226; Poly-cam Scanner
+&#8226; Einstar 3D scanner
+&#8226; Soldering Equipment
+&#8226; Apple pencils + Ipads
+&#8226; Adobe Suite: Photoshop & Illustrator 
+    "
+    />
+</div>
+
+<div class="flex justify-center">
+  <hr class="border-white w-11/12">
+</div>
+
+<div class="flex flex-col h-full w-screen">
+<TechnologyEquipment
+    header = "Meta Quest 3"
+    image = {temp}
+    subheader = "Experience Virtual Reality!"
+    description = "Come to the ETS to try out our Quest 3's immersive virtual environment! Honed with better graphics, a wider and higher-resolution display, clearer lenses, smaller controllers with better-vibrating haptics, and mixed reality! " 
+/>
+
+<div class="flex justify-center">
+  <hr class="border-white w-11/12">
+</div>
+
+<TechnologyEquipment
+    header = "Poly-cam Scanner"
+    image = {temp}
+    subheader = "Recreate Reality with photogrammetry!"
+    description = "Need a fast and easy 3D model of a real life object? Come scan with Poly-cam on our Ipads! Scan your head and turn into an octopus, get a scaled model of your body, or model your stuffed animal. The possibilities are endless!" 
+/>
+
+<div class="flex justify-center">
+  <hr class="border-white w-11/12">
+</div>
+
+<TechnologyEquipment
+    header = "Einstar 3D Scanner"
+    image = {temp}
+    subheader = "Capture precision models of real objects!"
+    description = "Need an accurate 3D model of a complex object? Come scan with our new Einstar 3D scanner! We will take you through a detailed scanning process, resulting in a high quality and dimensionally accurate 3D model."
+/>
+
+<div class="flex justify-center">
+  <hr class="border-white w-11/12">
+</div>
+
+<TechnologyEquipment
+    header = "Soldering Equipment"
+    image = {temp}
+    subheader = "Connect electronic parts together!"
+    description = "Work on creating or repairing electronic parts with our public soldering irons! Hobby grade standard irons are great at repairing wires, mounting or dismounting boards, and other small electrical projects such as Arduinos!"
+/>
+
+<div class="flex justify-center">
+  <hr class="border-white w-11/12">
+</div>
+
+<TechnologyEquipment
+    header = "Apple iPad Pros & Apple Pencils"
+    image = {temp}
+    subheader = "Unleash your creativity!"
+    description = "Discover Apples drawing experience on our Ipad Pros with 2nd Generation Apple Pencils. Sketch designs, blueprints, and works of art!"
+/>
+
+
+</div>

@@ -5,7 +5,7 @@
 
 
 <div class="flex flex-col">
-    <p class="font-plex-mono flex text-white items-end md:text-6xl text-3xl font-bold md:px-20 px-5 w-full md:pt-0 pt-10 custom-height-md">
+    <p class="font-plex-mono flex text-white items-end md:text-5xl text-2xl font-bold md:px-20 px-5 w-full md:pt-0 pt-10 custom-height-md">
         Our 3D printers
     </p>
     <div>

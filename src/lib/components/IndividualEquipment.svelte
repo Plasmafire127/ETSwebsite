@@ -10,7 +10,7 @@
         <div class="h-full w-full mb-2"> <!-- add justify-center if you want images center.-->
                 <img class="h-full object-cover" alt="thumbnail" src={image}/>
         </div>
-        <div class="flex flex-row w-full text-white md:text-4xl text-lg font-bold italic">
+        <div class="flex flex-row w-full text-white md:text-3xl text-lg font-bold italic">
             <p>
                 {header}
             </p>
