@@ -9,12 +9,10 @@ import "../app.css";
 <head>
   <link href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 </head>
-
     <!-- svelte-ignore a11y-media-has-caption -->
   <div class="opacity-50 scale-50 -translate-y-52 fixed h-screen w-screen object-cover -z-10">
-  <video autoplay loop playsinline disablepictureinpicture muted>
+  <video loop autoplay playsinline disablepictureinpicture muted preload="auto">
       <source src="videos/prusa.mp4" type="video/mp4">
-      <tack kind="captions"></tack>
   </video>
   </div>
   <Navbar />

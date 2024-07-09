@@ -3,7 +3,7 @@
 </script>
 
 
-<nav class = "bg-nav-purple backdrop-blur-xl bg-opacity-10 hover:bg-opacity-100 transition-all duration-500 md:fixed w-screen shadow-md z-20">
+<nav class = "bg-black backdrop-blur-xl bg-opacity-10 hover:bg-opacity-100 transition-all duration-500 md:fixed w-screen shadow-md z-20">
     <div class = "font-plex-mono flex md:px-6 px-2  h-[4.5rem] items-center">
         <div class="flex flex-row w-1/4 justify-start">
             <a href="/" class = "font-keania-one text-white md:text-6xl text-4xl">
@@ -27,7 +27,9 @@
             <div class="flex flex-row items-center text-orange md:text-2xl text-xs space-x-5 md:space-x-10">
                     <Dropdown/>
                 <div>
-                    About
+                    <a href="/about">
+                        About
+                    </a>
                 </div>
                 <div>
                     Location
