@@ -31,12 +31,9 @@
                         About
                     </a>
                 </div>
-                <div>
+                <a href="/location">
                     Location
-                </div> 
-                <div>
-                    Contact
-            </div>
+                </a> 
         </div>
     </div>
 </nav>

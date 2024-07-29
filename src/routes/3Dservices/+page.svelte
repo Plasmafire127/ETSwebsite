@@ -134,10 +134,10 @@
                 Resources
             </p>
             <div class="flex flex-col pl-10 text-orange md:text-xl text-base">
-                <p>1. Guide to 3D Printing - <span class="italic">article</span></p>
-                <p>2. What is 3D Printing and How Does it Work? | Mashable Explains - <span class="italic">video</span></p>
-                <p>3. Thingiverse - <span class="italic">free 3D models</span></p>
-                <p>4. Thangs - <span class="italic">free 3D models</span></p>
+                <a href="https://www.raise3d.com/academy/a-beginners-guide-to-3d-printing/" class="hover:text-link hover:scale-105 transition-all duration-150">1. Guide to 3D Printing - <span class="italic">article</span></a>
+                <a href="https://www.youtube.com/watch?v=Vx0Z6LplaMU" class="hover:text-link hover:scale-105 transition-all duration-150">2. What is 3D Printing and How Does it Work? | Mashable Explains - <span class="italic">video</span></a>
+                <a href="https://www.thingiverse.com/" class="hover:text-link hover:scale-105 transition-all duration-150">3. Thingiverse - <span class="italic">free 3D models</span></a>
+                <a href="https://thangs.com/marketplace/memberships?utm_source=google&utm_medium=cpc&utm_campaign=brandedsearch&gad_source=1&gclid=Cj0KCQjw-5y1BhC-ARIsAAM_oKk_y5xTKj1XS7Q4jkNPeufSiD4RXCrUDuEq7VGglP_jBjbkc6kvxBEaAgMkEALw_wcB" class="hover:text-link hover:scale-105 transition-all duration-150">4. Thangs - <span class="italic">free 3D models</span></a>
             </div>
         </div>
         <div class="md:flex hidden w-1/3 h-full justify-center">

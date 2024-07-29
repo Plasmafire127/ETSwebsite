@@ -15,6 +15,7 @@ export default {
       'off-white':'#DEDEDE',
       'italic-gray':'#524F59',
       'dark-gray': '#C8C8C8',
+      'link': '#cce3e3',
     },
     extend: {
       scale: {
