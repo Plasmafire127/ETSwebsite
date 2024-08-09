@@ -46,4 +46,5 @@ background color purple = #231c24
 
 body {
   background-color: black;
+  overflow-x: hidden;
 }
