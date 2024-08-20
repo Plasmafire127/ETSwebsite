@@ -43,7 +43,7 @@
      <About
      image={temp}
      name="Rachel Koppelman"
-     position="CNC Specialist"
+     position="Materials Specialist"
      major="Mechanical Engineering"
      year="Senior"
      />
@@ -61,6 +61,50 @@
      major="Computer Science"
      year="Junior"
      />
+     <About
+     image={temp}
+     name="Timothy Tram"
+     position="3D Design Specialist"
+     major="Mechanical Engineering"
+     year="Sophomore"
+     />
+     <About
+     image={temp}
+     name="Erick Palka"
+     position="Automotive Specialist"
+     major="Mechanical Engineering"
+     year="Sophomore"
+     />
+     <About
+     image={temp}
+     name="Nathan Teig"
+     position="Manufacturing Specialist"
+     major="Mechanical Engineering"
+     year="Junior"
+     />
+     <About
+     image={temp}
+     name="Stella Hung"
+     position="2D Design Specialist"
+     major="Graphic Design"
+     year="Junior"
+     />
+     <About
+     image={temp}
+     name="Joanna Fishman"
+     position="Media Specialist"
+     major="Cinema"
+     year="Senior"
+     />
+     <About
+     image={temp}
+     name="David Poncé"
+     position="A.I. Specialist"
+     major="Computer Science"
+     year="Junior"
+     />
+
+
 </div>
 
 <Separator />

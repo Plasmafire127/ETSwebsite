@@ -23,9 +23,9 @@
 
 <Separator />
 
-<div class="font-plex-mono font-bold flex flex-col justify-center md:space-y-0 space-y-16 w-screen h-screen text-orange md:px-20 md:text-base text-xs">
+<div class="font-plex-mono font-bold flex flex-col justify-center align-center md:space-y-0 space-y-16 w-screen h-screen text-orange md:px-64 md:text-base text-xs">
     <div class="flex flex-row space-x-10">
-        <img class="w-1/2 object-cover" alt="thumbnail" src={temp}/>
+        <img class="w-1/3 object-cover" alt="thumbnail" src={temp}/>
         <div class="flex flex-col">
             <p class="md:text-4xl text-xl text-white italic"> 
                 First Floor Technology Hub
@@ -44,6 +44,6 @@
                 The well-known path is to go up this ramp on west drive and into the building directly in front of it. This ramp is situated between the road from the Bartle Library to Engineering Building section closer to the residential area.
             </p>
         </div>
-        <img class="w-1/2 object-cover" alt="thumbnail" src={temp}/>
+        <img class="w-1/3 object-cover" alt="thumbnail" src={temp}/>
     </div>
 </div>
