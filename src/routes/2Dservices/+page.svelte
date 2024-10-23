@@ -1,96 +1,13 @@
 <script>
-    import ServicesCardLarge from '$lib/components/ServicesCardLarge.svelte';
-    import ServicesCardSmall from '$lib/components/ServicesCardSmall.svelte';
-    import ServicesCardSquare from '$lib/components/ServicesCardSquare.svelte';
-    import ServicesCardLargeMobile from '$lib/components/ServicesCardLargeMobile.svelte';
     import Overview from '$lib/components/Overview.svelte';
-    import temp from '$lib/images/temp.png';
-    import CraftEquipment from '$lib/components/CraftEquipment.svelte';
     import Separator from '$lib/components/Separator.svelte';
-    let rightoneArray = ["Stickers", "Vinyl", "Iron-on", "Cardstock"];
-    let righttwoArray = ["Lamination", "Custom Decal"];
+    import IndividualEquipment from "$lib/components/IndividualEquipment.svelte";
+    import temp from '$lib/images/temp.png';
 </script>
 
-<div class="font-plex-mono flex flex-col items-center justify-start h-1/2 text-center text-orange">
-    <div class="flex md:flex-row flex-col h-full w-screen md:mt-20 md:p-20 p-5 md:space-x-10">
- 
-        <div class="hidden w-2/3 md:flex flex-col">
-            <div class="flex flex-row h-1/4 space-x-10">
-            <ServicesCardSmall
-            color="bg-off-white"
-            href="./3Dservices" 
-            logo="fa-solid fa-cube"
-            text = "3D Prints"/>
-
-            <ServicesCardSmall
-            color="bg-orange"
-            href="./2Dservices"
-            logo="fa-solid fa-compass-drafting"
-            text="2D Crafts"/>
-            </div>
-
-            <div class="h-2/3 mt-auto flex flex-col">
-            <ServicesCardLarge
-            leftone = "2D Products"
-            lefttwo = "Extras"
-            leftthree = "Color"
-            rightone = {rightoneArray}
-            righttwo = {righttwoArray}
-            logo = "fa-solid fa-droplet"
-            rightthree = "Click to select color"/>
-            </div>
-        </div>
-
-
-        <div class="hidden md:flex flex-row md:w-1/3">
-            <ServicesCardSquare 
-            header = "Price Estimate"
-            />
-        </div>
-
-        <div class="md:hidden w-full flex flex-col h-full space-y-5">
-            <div class="flex flex-row space-x-5">
-            <ServicesCardSmall
-            color="bg-off-white" 
-            href="./3Dservices" 
-            logo="fa-solid fa-cube"
-            text = "3D Prints"/>
-
-            <ServicesCardSmall
-            color="bg-orange"
-            href="./2Dservices" 
-            logo="fa-solid fa-compass-drafting"
-            text="2D Crafts"/>
-            </div>
-        
-            <div class="flex flex-col">
-            <ServicesCardLargeMobile
-                leftone = "2D Products"
-                lefttwo = "Extras"
-                leftthree = "Color"
-                rightone = "Click to select product"
-                logoone = "fa-solid fa-cubes"
-                righttwo = "Click to select extra options"
-                logotwo = "fa-solid fa-layer-group"
-                rightthree = "Click to select color"
-                logothree = "fa-solid fa-droplet" />
-            </div>
-                 
-            <div class="flex flex-row md:w-1/3">
-                <ServicesCardSquare 
-                header = "Price Estimate"
-                />
-            </div>
-        </div>
-
-    </div>
-</div>
-
-<Separator/>
-
 <div class="flex flex-col md:h-screen h-full w-screen text-orange">
-    <Overview 
-    image = {temp}
+    <Overview
+    video = 'videos/benchyweb.webm' 
     header = "2D CRAFTS OVERVIEW"
     subheaderone = "How to Request"
     paragraphone = "1. Have your file in either PNG, JPEG, or SVG.
@@ -100,9 +17,78 @@
 3. Wait for our response email.
 4. Visit the ETS at the Tech hub!"
     subheadertwo = "how to Pay"
-    paragraphtwo = "1. We accept BUC$, which you can load here.
-2. Register with the Meal Plan Office if you do not have an account.
-"
+    paragraphtwo = "You don't! This semester, prints are based on a credit system."
     />
 </div>
 
+<Separator/>
+
+<div class="grid md:grid-cols-3 grid-cols-2 md:p-20 md:gap-x-0 gap-x-5 px-5 pb-10">
+    <IndividualEquipment
+    image = {temp}
+    header = "Stickers"
+    price = "$0.50/sheet"
+    craftdescription = 
+   "&#8226; PNG, JPEG, SVG Files
+&#8226; Width & Height (inches)
+&#8226; Outline/Offset (inches)
+&#8226; Matte OR Glossy
+&#8226; Die-cut OR Kiss-cut
+&#8226; Optional: Lamination
+    "
+    />
+    <IndividualEquipment
+    image = {temp}
+    header = "Card-Stock"
+    price = "$0.80/sheet"
+    craftdescription = 
+   "&#8226; PNG, JPEG, PDF Files
+&#8226; Double Sided?
+&#8226; Color of Card-stock
+&#8226; Markers OR Printed
+&#8226; Optional: Emboss, Score, Perforation
+    "
+    />
+    <IndividualEquipment
+    image = {temp}
+    header = "Iron-On"
+    price = "$0.02/in&sup2"
+    craftdescription = 
+   "&#8226; PNG, JPEG, SVG Files
+&#8226; Width & Height (inches)
+&#8226; Outline/Offset (inches)
+&#8226; Color of Iron-On Sheet
+&#8226; Optional: Custom Decal, Special Instructions
+    "
+    />
+    <IndividualEquipment
+    image = {temp}
+    header = "Vinyl"
+    price = "$0.02/in&sup2"
+    craftdescription = 
+   "&#8226; PNG, JPEG, SVG Files
+&#8226; Width & Height (inches)
+&#8226; Black OR White Color
+&#8226; Optional: Special Instructions
+    "
+    />
+    <IndividualEquipment
+    image = {temp}
+    header = "Acrylic"
+    price = "$0.50/circle"
+    craftdescription = 
+   "&#8226; PNG, JPEG, SVG Files
+&#8226; Width & Height (inches)
+    "
+    />
+    <IndividualEquipment
+    image = {temp}
+    header = "Other Materials"
+    craftdescription = 
+   "&#8226; Fabrics
+&#8226; Plastics
+&#8226; Cardboard
+&#8226; More listed Here
+    "
+    />
+</div>
