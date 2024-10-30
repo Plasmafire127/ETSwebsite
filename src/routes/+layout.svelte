@@ -10,7 +10,7 @@ import "../app.css";
   <link href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 </head>
     <!-- svelte-ignore a11y-media-has-caption -->
-  <div class="flex justify-center opacity-50 md:scale-90 fixed  h-screen w-screen object-cover -z-10">
+  <div class="flex justify-center opacity-50 md:scale-90 fixed h-screen w-screen object-cover -z-10">
   <video loop autoplay playsinline disablepictureinpicture muted preload="auto">
       <source src="videos/prusa.mp4" type="video/mp4">
   </video>

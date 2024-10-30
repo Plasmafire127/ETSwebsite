@@ -44,8 +44,8 @@
           </div>
           <div class="flex flex-col w-2/3">
             <p>etsbing@binghamton.edu</p>
-            <p>need link</p>
-            <p>@etsbing</p>
+            <a href="https://www.linkedin.com/company/emerging-technology-studio-at-binghamton-university/"><p>Emerging Technology Studio</p></a>
+            <a href="https://www.instagram.com/bing_ets/"> <p>@etsbing</p></a>
             <p>(607) 777 3877</p>
             <p>Technology Hub 101</p>
           </div>
