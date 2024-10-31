@@ -6,11 +6,11 @@
 </script>
 
 <div class="flex flex-col items-center my-5"> 
-    <div class="flex flex-col items-start">
-        <div class="h-full w-full mb-2"> <!-- add justify-center if you want images center.-->
-                <img class="w-2/3 object-cover" alt="thumbnail" src={image}/>
+    <div class="flex flex-col items-center mt-auto">
+        <div class="items-center h-full w-full mb-2">
+                <img class="object-cover" alt="thumbnail" src={image}/>
         </div>
-        <div class="flex flex-row w-full text-white md:text-3xl text-lg font-bold italic">
+        <div class="text-white md:text-3xl text-lg font-bold italic">
             <p>
                 {header}
             </p>
