@@ -2,20 +2,25 @@
     import Overview from '$lib/components/Overview.svelte';
     import Separator from '$lib/components/Separator.svelte';
     import IndividualEquipment from "$lib/components/IndividualEquipment.svelte";
-    import temp from '$lib/images/temp.png';
+    import sticker from '$lib/images/sticker.png';
+    import cardstock from '$lib/images/cardstock.png';
+    import ironon from '$lib/images/iron-on.png';
+    import vinyl from '$lib/images/vinyl.png';
+    import acrylic from '$lib/images/acrylic.png';
+    import other from '$lib/images/other-materials.png';
 </script>
 
 <div class="flex flex-col md:h-screen h-full w-screen text-orange">
     <Overview
-    video = 'videos/benchyweb.webm' 
+    video = 'videos/cricutVid.webm' 
     header = "2D CRAFTS OVERVIEW"
     subheaderone = "How to Request"
     paragraphone = "1. Have your file in either PNG, JPEG, or SVG.
-2. Send us an email to etsbing@binghamton.edu.
-    &#8226; Attach the file.
-    &#8226; See below for more specific description.
-3. Wait for our response email.
-4. Visit the ETS at the Tech hub!"
+                    2. Send us an email to etsbing@binghamton.edu.
+                        &#8226; Attach the file.
+                        &#8226; See below for more specific description.
+                    3. Wait for our response email.
+                    4. Visit the ETS at the Tech hub!"
     subheadertwo = "how to Pay"
     paragraphtwo = "You don't! This semester, prints are based on a credit system."
     />
@@ -23,72 +28,72 @@
 
 <Separator/>
 
-<div class="grid md:grid-cols-3 grid-cols-2 md:p-20 md:gap-x-0 gap-x-5 px-5 pb-10">
+<div class="grid md:grid-cols-3 grid-cols-2 md:p-20 p-5 gap-2">
     <IndividualEquipment
-    image = {temp}
+    image = {sticker}
     header = "Stickers"
     price = "$0.50/sheet"
     craftdescription = 
    "&#8226; PNG, JPEG, SVG Files
-&#8226; Width & Height (inches)
-&#8226; Outline/Offset (inches)
-&#8226; Matte OR Glossy
-&#8226; Die-cut OR Kiss-cut
-&#8226; Optional: Lamination
+    &#8226; Width & Height (inches)
+    &#8226; Outline/Offset (inches)
+    &#8226; Matte OR Glossy
+    &#8226; Die-cut OR Kiss-cut
+    &#8226; Optional: Lamination
     "
     />
     <IndividualEquipment
-    image = {temp}
+    image = {cardstock}
     header = "Card-Stock"
     price = "$0.80/sheet"
     craftdescription = 
    "&#8226; PNG, JPEG, PDF Files
-&#8226; Double Sided?
-&#8226; Color of Card-stock
-&#8226; Markers OR Printed
-&#8226; Optional: Emboss, Score, Perforation
+    &#8226; Double Sided?
+    &#8226; Color of Card-stock
+    &#8226; Markers OR Printed
+    &#8226; Optional: Emboss, Score, Perforation
     "
     />
     <IndividualEquipment
-    image = {temp}
+    image = {ironon}
     header = "Iron-On"
     price = "$0.02/in&sup2"
     craftdescription = 
    "&#8226; PNG, JPEG, SVG Files
-&#8226; Width & Height (inches)
-&#8226; Outline/Offset (inches)
-&#8226; Color of Iron-On Sheet
-&#8226; Optional: Custom Decal, Special Instructions
+    &#8226; Width & Height (inches)
+    &#8226; Outline/Offset (inches)
+    &#8226; Color of Iron-On Sheet
+    &#8226; Optional: Custom Decal, Special Instructions
     "
     />
     <IndividualEquipment
-    image = {temp}
+    image = {vinyl}
     header = "Vinyl"
     price = "$0.02/in&sup2"
     craftdescription = 
    "&#8226; PNG, JPEG, SVG Files
-&#8226; Width & Height (inches)
-&#8226; Black OR White Color
-&#8226; Optional: Special Instructions
+    &#8226; Width & Height (inches)
+    &#8226; Black OR White Color
+    &#8226; Optional: Special Instructions
     "
     />
     <IndividualEquipment
-    image = {temp}
+    image = {acrylic}
     header = "Acrylic"
     price = "$0.50/circle"
     craftdescription = 
    "&#8226; PNG, JPEG, SVG Files
-&#8226; Width & Height (inches)
+    &#8226; Width & Height (inches)
     "
     />
     <IndividualEquipment
-    image = {temp}
+    image = {other}
     header = "Other Materials"
     craftdescription = 
    "&#8226; Fabrics
-&#8226; Plastics
-&#8226; Cardboard
-&#8226; More listed Here
+    &#8226; Plastics
+    &#8226; Cardboard
+    &#8226; More listed Here
     "
     />
 </div>

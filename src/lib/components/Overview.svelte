@@ -6,7 +6,7 @@
     {header}
 </p>
 <div class="font-plex-mono flex md:flex-row flex-col w-full h-5/6 md:px-0 px-5">
-    <div class="flex md:flex-row flex-col md:h-full h-1/4 md:pl-20 md:py-20 md:mr-5 pt-5">
+    <div class="flex md:flex-row flex-col md:h-full h-1/4 md:pl-20 md:py-20 md:mr-10 pt-5">
             <video loop autoplay playsinline disablepictureinpicture muted preload="auto">
                 <source src={video} type="video/webm">
             </video>

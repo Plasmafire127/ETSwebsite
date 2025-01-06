@@ -7,6 +7,7 @@
   import HomepageCard from '$lib/components/HomepageCard.svelte';
   import HomepageCardMobile from '$lib/components/HomepageCardMobile.svelte';
   import Separator from '$lib/components/Separator.svelte';
+  import '@fortawesome/fontawesome-free/css/all.min.css';
 </script>
 
 <div class="font-plex-mono font-bold flex flex-col items-center justify-center w-screen h-screen text-center text-orange">
