@@ -9,7 +9,7 @@
     </p>
     <div class="flex flex-row h-full w-full mt-10">
         <div class="md:flex hidden h-full w-1/3 mr-10"> <!-- add justify-center if you want images center.-->
-                <img class="h-full w-full object-cover" alt="thumbnail" src={image}/>
+            <img class="h-full w-full object-cover rounded-lg" alt="thumbnail" src={image}/>
         </div>
         <div class="flex flex-col h-full w-2/3 font-bold md:text-4xl text-lg justify-center my-auto"> <!-- not sure how to center this w/o my-auto-->
             <p class="italic">
@@ -20,7 +20,7 @@
             </p>
         </div>
         <div class="flex flex-col md:hidden h-full w-1/3 ml-10"> <!-- add justify-center if you want images center.-->
-            <img class="h-full w-full object-cover" alt="thumbnail" src={image}/>
+            <img class="h-full w-full object-cover rounded-lg" alt="thumbnail" src={image}/>
         </div>
     </div>
 </div>
