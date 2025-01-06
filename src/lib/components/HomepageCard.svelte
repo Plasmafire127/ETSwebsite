@@ -3,7 +3,7 @@
   import printer from '$lib/images/printer.jpg';
   import vr from '$lib/images/vr.jpg';
 
-  export let header, motto, one, two, three, link;
+  export let header, motto, one, two, three, link, buttonText;
   export let image = '';
 </script>
 
@@ -17,18 +17,17 @@
     </div>
     <div>
       <div class="flex flex-col text-xl">
-        <p>
-          {one}
-        </p>
-        <p>
-          {two}
-        </p>
-        <p>
-          {three}
-        </p>
+        <p>{one}</p>
+        <p>{two}</p>
+        <p>{three}</p>
       </div>
     </div>
-    <div class="flex font-plex-mono text-orange text-xl font-bold bg-nav-purple w-fit rounded-full p-2 px-6 items-center justify-center">
+    <!-- <div class="flex font-plex-mono text-orange text-xl font-bold bg-nav-purple w-fit rounded-full p-2 px-6 items-center justify-center">
       {link} &gt;
+    </div> -->
+    <div class="flex font-plex-mono text-orange text-xl font-bold bg-nav-purple w-fit rounded-full p-2 px-6 items-center justify-center">
+      <a href={link} target="_blank" rel="noopener noreferrer" class="hover:underline">
+        {buttonText}
+      </a>
     </div>
 </div>

@@ -5,7 +5,12 @@
 
 <nav class = "bg-black backdrop-blur-xl bg-opacity-10 hover:bg-opacity-100 transition-all duration-500 md:fixed w-screen shadow-md z-20 px-6 md:px-8">
     <div class = "font-plex-mono flex md:px-6 px-2  h-[4.5rem] items-center">
-        <div class="flex flex-row w-1/4 justify-start">
+        <div class="flex flex-row w-1/4 justify-start items-center">
+            <a href="/" class="flex items-center">
+                <img src="src/lib/images/ETSLogo.png" alt="ETS Logo" class="md:h-12 h-8">
+            </a>
+        </div>
+        <!-- <div class="flex flex-row w-1/4 justify-start">
             <a href="/" class = "font-keania-one text-white md:text-6xl text-4xl">
                 ETS
             </a>
@@ -22,9 +27,9 @@
                     </p>
                 </a>
             </div>
-        </div>
+        </div> -->
         <div class="flex flex-row w-3/4 justify-end">
-            <div class="flex flex-row items-center text-orange md:text-2xl text-xs space-x-5 md:space-x-10">
+            <div class="flex flex-row items-center text-orange md:text-lg text-s space-x-5 md:space-x-10">
                     <Dropdown/>
                 <div>
                     <a href="/about">

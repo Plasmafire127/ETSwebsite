@@ -16,13 +16,13 @@
   <p class="font-space-grotesk md:text-7xl text-3xl">
     Emerging Technology Studio!
   </p>
-  <p class="md:mt-40 mt-20 md:text-4xl text-xl text-green">
+  <p class="md:mt-40 mt-20 md:text-3xl text-xl text-green">
     Binghamton University's
   </p>
-  <p class="mt-2 md:text-4xl text-xl">
+  <p class="mt-2 md:text-3xl text-xl">
     Premier Makerspace.
   </p>
-  <div class="mt-5 font-plex-mono md:text-2xl text-lg bg-nav-purple rounded-full w-auto h-auto py-2 px-6">
+  <div class="mt-5 font-plex-mono md:text-xl text-lg bg-nav-purple rounded-full w-auto h-auto py-2 px-6">
     Get Started &gt;
   </div>
 </div>
@@ -31,19 +31,20 @@
 <Separator/>
 
 <div class="font-plex-mono flex flex-col h-screen w-screen text-orange">
-  <p class="flex text-white md:h-1/6 md:pt-0 pt-10 items-end md:text-5xl text-2xl font-bold md:px-20 px-5">
+  <p class="text-white font-bold md:text-4xl text-2xl mb-4 md:px-20">
     OUR SERVICES
   </p>
   <div class="md:block hidden h-5/6 w-screen">
     <div class="flex md:flex-row flex-col justify-center h-full w-screen items-center space-x-20 text-black font-bold"> 
       <HomepageCard
-      image={printer}
-      header="3D Printing"
+        image={printer}
+        header="3D Printing"
         motto="Think it. Print it."
         one="PLA Printing"
         two="Resin Printing"
         three="Multi-color Printing"
-        link="Print Now!"
+        link="/3Dservices"
+        buttonText="Print Now!"
       /> 
       <HomepageCard 
         image={craft}
@@ -52,7 +53,8 @@
         one="Cricut"
         two="Stickers & Iron-on"
         three="CardStock, Vinyl, etc."
-        link="Craft Now!"
+        link="/2Dservices"
+        buttonText="Craft Now!"
       /> 
       <HomepageCard 
         image={vr}
@@ -61,7 +63,8 @@
         one="Virtual Reality (VR/AR)"
         two="360&#176; Media and Scanning"
         three="Adobe Software"
-        link="Experience Now!"
+        link="/technology"
+        buttonText="Experience Now!"
       /> 
     </div>
   </div>
@@ -69,13 +72,14 @@
   <div class="md:hidden h-full w-screen">
     <div class="flex md:flex-row flex-col justify-center h-full w-screen items-center space-y-10 text-black font-bold">
       <HomepageCardMobile
-      image={printer}
-      header="3D Printing"
+        image={printer}
+        header="3D Printing"
         motto="Think it. Print it."
         one="PLA Printing"
         two="Resin Printing"
         three="Multi-color Printing"
-        link="Print Now!"
+        link="/3Dservices"
+        buttonText="Print Now!"
       /> 
       <HomepageCardMobile
         image={craftSquare}
@@ -84,7 +88,8 @@
         one="Cricut"
         two="Stickers & Iron-on"
         three="CardStock, Vinyl, etc."
-        link="Craft Now!"
+        link="/2Dservices"
+        buttonText="Craft Now!"
       /> 
       <HomepageCardMobile
         image={vrSquare}
@@ -93,7 +98,8 @@
         one="Virtual Reality (VR/AR)"
         two="360&#176; Media and Scanning"
         three="Adobe Software"
-        link="Experience Now!"
+        link="/technology"
+        buttonText="Experience Now!"
       /> 
     </div>
   </div>
