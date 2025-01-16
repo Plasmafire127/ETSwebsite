@@ -118,21 +118,21 @@
           Faculty Advisor:
      </p>
      <div class="flex flex-row items-center space-x-5 mt-5">
-          <!-- Faculty Advisor Photo -->
-          <img 
-               src="/images/etsgary.jpg" 
-               alt="Faculty Advisor" 
-               class="w-32 h-32 object-cover rounded-full shadow-lg"
-          />
-          <!-- Faculty Advisor Info -->
-          <div>
-               <p class="md:text-2xl text-lg text-white">Gary Dewey</p>
-               <p class="md:text-base text-sm">Faculty Advisor</p>
-               <p class="text-gray-400 md:text-sm text-xs">
-                    Guiding the ETS with expertise in technology and innovation.
-               </p>
-          </div>
-     </div>
+    <!-- Faculty Advisor Photo -->
+    <img 
+        src="/images/etsgary.jpg" 
+        alt="Faculty Advisor" 
+        class="w-32 h-32 object-cover shadow-lg"
+    />
+    <!-- Faculty Advisor Info -->
+    <div>
+        <p class="md:text-2xl text-lg text-white">Gary Dewey</p>
+        <p class="text-white md:text-sm text-xs">
+            Guiding the ETS with expertise in technology and innovation.
+        </p>
+    </div>
+</div>
+
 </div>
 
 <Separator />
