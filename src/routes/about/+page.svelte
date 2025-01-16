@@ -3,9 +3,11 @@
      import About from "$lib/components/About.svelte";
      import temp from '$lib/images/temp.png';
 </script>
+
+<!-- Header Section -->
 <div class="flex flex-col h-screen w-screen text-orange text-center font-bold items-center justify-center">
    <p class="md:text-3xl text-xl">
-        the ETS is student run...
+        The ETS is student run...
    </p>
    <p class="font-space-grotesk md:text-7xl text-4xl font-extrabold">
         Meet Our Team!
@@ -17,98 +19,125 @@
     Here at the ETS, we have a diversified set of students working to provide you with the best services. Disciplines range from Mechanical Engineering to Computer Engineering & Science, to Art. Our goal is to embrace everyone's creativity and interests. So don't be shy, come on in and start creating your very own projects!
    </p>
 </div>
+
 <Separator />
-<div class = "h-full w-screen grid md:grid-cols-3 grid-cols-2 md:px-20 px-5">
+
+<!-- Employees Section -->
+<div class="h-full w-screen grid md:grid-cols-3 grid-cols-2 md:px-20 px-5">
      <About
-     image={temp}
+     image="/images/etsvan.jpg"
      name="Van James Huynh"
      position="Director"
      major="Industrial Systems Engineering"
      year="Senior"
      />
      <About
-     image={temp}
+     image="/images/etspaul.jpg"
      name="Paul Ampadu"
      position="ML/Computer Graphics Specialist"
      major="Computer Science"
      year="Senior"
      />
      <About
-     image={temp}
+     image="/images/default.png"
      name="Winnie Yong"
      position="Cricut Specialist"
      major="Computer Science"
      year="Senior"
      />
      <About
-     image={temp}
+     image="/images/default.png"
      name="Rachel Koppelman"
      position="Materials Specialist"
      major="Mechanical Engineering"
      year="Senior"
      />
      <About
-     image={temp}
+     image="/images/etssam.jpg"
      name="Sam Abramson"
      position="Robotics Specialist"
      major="Mechanical Engineering"
      year="Senior"
      />
      <About
-     image={temp}
+     image="/images/default.png"
      name="Jake Digiugno"
      position="3D Engine Specialist"
      major="Computer Science"
      year="Junior"
      />
      <About
-     image={temp}
+     image="/images/default.png"
      name="Timothy Tram"
      position="3D Design Specialist"
      major="Mechanical Engineering"
      year="Sophomore"
      />
      <About
-     image={temp}
+     image="/images/default.png"
      name="Erick Palka"
      position="Automotive Specialist"
      major="Mechanical Engineering"
      year="Sophomore"
      />
      <About
-     image={temp}
+     image="/images/etsnathan.jpg"
      name="Nathan Teig"
      position="Manufacturing Specialist"
      major="Mechanical Engineering"
      year="Junior"
      />
      <About
-     image={temp}
+     image="/images/etsstella.jpg"
      name="Stella Hung"
      position="2D Design Specialist"
      major="Graphic Design"
      year="Junior"
      />
      <About
-     image={temp}
+     image="/images/default.png"
      name="Joanna Fishman"
      position="Media Specialist"
      major="Cinema"
      year="Senior"
      />
      <About
-     image={temp}
+     image="/images/etsdavid.jpg"
      name="David Poncé"
      position="A.I. Specialist"
      major="Computer Science"
      year="Junior"
      />
-
-
 </div>
 
 <Separator />
 
+<!-- Faculty Advisor Section -->
+<div class="font-plex-mono font-bold h-full w-screen md:px-20 px-5">
+     <p class="md:text-4xl text-xl text-white italic mt-10">
+          Faculty Advisor:
+     </p>
+     <div class="flex flex-row items-center space-x-5 mt-5">
+          <!-- Faculty Advisor Photo -->
+          <img 
+               src="/images/etsgary.jpg" 
+               alt="Faculty Advisor" 
+               class="w-32 h-32 object-cover rounded-full shadow-lg"
+          />
+          <!-- Faculty Advisor Info -->
+          <div>
+               <p class="md:text-2xl text-lg text-white">Gary Dewey</p>
+               <p class="md:text-base text-sm">Faculty Advisor</p>
+               <p class="text-gray-400 md:text-sm text-xs">
+                    Guiding the ETS with expertise in technology and innovation.
+               </p>
+          </div>
+     </div>
+</div>
+
+<Separator />
+
+<!-- Alumni Section -->
 <div class="font-plex-mono font-bold h-full w-screen md:px-20 px-5">
      <p class="md:text-4xl text-xl text-white italic">
           Alumni:
