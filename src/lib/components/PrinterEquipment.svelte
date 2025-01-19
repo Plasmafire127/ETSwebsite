@@ -20,42 +20,49 @@
             <IndividualEquipment
             image = {pXL}
             header = "Prusa XL"
+            link="https://help.prusa3d.com/tag/xl"
             description = "(360mm x 360mm x 360mm)"
             />
 
             <IndividualEquipment
             image = {mk4}
             header = "Prusa MK4"
+            link="https://help.prusa3d.com/tag/mk4"
             description = "(180mm x 180mm x 180mm)"
             />
 
             <IndividualEquipment
             image = {voron}
             header = "Voron 2.4"
+            link="https://vorondesign.com/voron2.4"
             description = "(360mm x 350mm x 350mm)"
             />
 
             <IndividualEquipment
             image = {x1}
             header = "Bambu X1-Carbon"
+            link="https://wiki.bambulab.com/en/x1"
             description = "(256mm x 256mm x 256mm)"
             />
 
             <IndividualEquipment
             image = {p1}
             header = "Bambu P1S"
+            link="https://wiki.bambulab.com/en/p1"
             description = "(256mm x 256mm x 256mm)"
             />
 
             <IndividualEquipment
             image = {elegoo}
             header = "ELEGOO Saturn Ultra 3"
+            link="https://us.elegoo.com/products/elegoo-saturn-3-ultra-resin-3d-printer-12k"
             description = "(218.88mm x 218.88mm x 260mm)"
             />
 
             <IndividualEquipment
             image = {form3}
             header = "Formlabs Form 3"
+            link="https://support.formlabs.com/s/article/Quick-Start-Guide-Form3?language=en_US"
             description = "(145mm x 145mm x 185mm)"
             />
 
