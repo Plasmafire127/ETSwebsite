@@ -7,7 +7,7 @@
 
   <!-- Left Section -->
   <div class="flex flex-col md:w-1/3 w-full justify-center items-center md:items-start">
-    <img src="src/lib/images/ETSLogo.png" alt="ETS Logo" class="w-auto h-auto"> 
+    <img src="$lib/images/ETSLogo.png" alt="ETS Logo" class="w-auto h-auto"> 
     <p class="text-base font-normal mt-5 text-center md:text-left mb-4">Get in touch with us. We are looking forward to starting a project with you!</p>
     <span class="border-t border-gray-500 mt-2 w-full"></span> 
     <div class="flex space-x-4 mt-5">

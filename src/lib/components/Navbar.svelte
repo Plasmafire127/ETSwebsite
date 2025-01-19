@@ -7,7 +7,7 @@
     <div class = "font-plex-mono flex md:px-6 px-2  h-[4.5rem] items-center">
         <div class="flex flex-row w-1/4 justify-start items-center">
             <a href="/" class="flex items-center">
-                <img src="src/lib/images/ETSLogo.png" alt="ETS Logo" class="md:h-12 h-8">
+                <img src="$lib/images/ETSLogo.png" alt="ETS Logo" class="md:h-12 h-8">
             </a>
         </div>
         <!-- <div class="flex flex-row w-1/4 justify-start">
