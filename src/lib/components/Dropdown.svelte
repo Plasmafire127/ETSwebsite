@@ -18,9 +18,9 @@
     in:fly={{ y: -20, duration: 400 }}
     out:fly={{ y: +20, duration: 400 }}
     class="z-50 bg-accent-dark rounded-lg w-auto h-auto p-4 mt-3 outline outline-1 font-plex-mono text-orange text-lg">
-    <a href="/3Dservices" use:melt={$item} class="">3D Services</a>
+    <a href="/3Dservices" use:melt={$item} class="">3D Printing </a> 
     <hr class="text-accent-purple my-2">
-    <a href="/2Dservices" use:melt={$item} class="">2D Services</a>
+    <a href="/2Dservices" use:melt={$item} class="">2D Cutting </a>
     <hr class="text-accent-purple my-2">
     <a href="/technology" use:melt={$item} class="">Other Technologies</a>
   </div>

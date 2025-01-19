@@ -3,6 +3,7 @@
     export let price = "";
     export let description = "";
     export let craftdescription = "";
+    export let link = "#";
 </script>
 
 <style>
@@ -37,6 +38,15 @@
     .equipment-info {
         text-align: center;
     }
+
+    .equipment-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .equipment-link:hover {
+        text-decoration: underline;
+    }
 </style>
 
 <div class="container">
@@ -44,7 +54,9 @@
         <img class="equipment-image" alt="thumbnail" src={image} />
     </div>
     <div class="equipment-info text-white md:text-3xl text-lg font-bold italic">
-        <p>{header}</p>
+        <a href={link} target="_blank" rel="noopener noreferrer" class="equipment-link">
+            {header}
+        </a>
         <p class="text-green text-right md:ml-5 ml-2 self-start md:text-base text-sm">
             {price}
         </p>
