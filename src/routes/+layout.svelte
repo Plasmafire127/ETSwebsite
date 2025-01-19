@@ -15,6 +15,8 @@ import "../app.css";
       <source src="videos/prusa.mp4" type="video/mp4">
   </video>
   </div>
+  <div class="fixed h-screen w-screen bg-background opacity-70 -z-10"></div>
+
   <Navbar />
   <slot />
 
