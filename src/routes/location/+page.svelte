@@ -23,23 +23,21 @@
 
 <Separator />
 
-<div class="font-plex-mono font-bold flex flex-col justify-center align-center md:space-y-0 space-y-16 w-screen h-screen text-orange md:px-64 md:text-base text-xs">
-    <div class="flex flex-row space-x-10">
-        <!-- Larger, Fully Visible Image -->
-        <img 
-            class="w-2/3 h-auto object-contain rounded-lg shadow-xl" 
-            alt="Technology Hub Location" 
-            src="/images/etslocation.png"
-        />
-        
-        <!-- Text -->
-        <div class="flex flex-col">
-            <p class="md:text-4xl text-xl text-white italic"> 
-                First Floor Technology Hub
-            </p>
-            <p>
-                We are currently located in the first floor of the Technology Hub which also hosts the Information Technology Hub (ITS)! This place is situated between the Glenn G. Bartle Library, the Engineering Building, and the University Union. 
-            </p>
-        </div>
+<div class="font-plex-mono font-bold flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-8 md:space-y-0 w-screen h-auto md:h-screen text-orange md:px-64 px-4 md:text-base text-xs">
+    <!-- Responsive Image -->
+    <img 
+        class="md:w-2/3 w-full h-auto object-contain rounded-lg shadow-xl" 
+        alt="Technology Hub Location" 
+        src="/images/etslocation.png"
+    />
+    
+    <!-- Text -->
+    <div class="flex flex-col md:w-1/3 w-full md:mt-0 mt-4 space-y-4">
+        <p class="md:text-4xl text-xl text-white italic"> 
+            First Floor Technology Hub
+        </p>
+        <p>
+            We are currently located in the first floor of the Technology Hub which also hosts the Information Technology Hub (ITS)! This place is situated between the Glenn G. Bartle Library, the Engineering Building, and the University Union. 
+        </p>
     </div>
 </div>
