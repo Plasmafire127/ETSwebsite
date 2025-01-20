@@ -6,6 +6,7 @@
     import x1 from '$lib/images/x1.png';
     import p1 from '$lib/images/p1.png';
     import elegoo from '$lib/images/elegoo.png';
+    import elegoo4 from '$lib/images/elegoo4.png';
     import form3 from '$lib/images/form3.png';
     import temp from '$lib/images/temp.png';
 </script>
@@ -16,7 +17,7 @@
         Our 3D printers
     </p>
     <div>
-        <div class="grid md:grid-cols-4 grid-cols-2 md:p-20 md:gap-x-0 gap-x-5 px-5 pb-10">
+        <div class="grid md:grid-cols-4 grid-cols-2 md:gap-6 gap-3 px-5 pb-10">
             <IndividualEquipment
             image = {pXL}
             header = "Prusa XL"
@@ -57,6 +58,13 @@
             header = "ELEGOO Saturn Ultra 3"
             link="https://us.elegoo.com/products/elegoo-saturn-3-ultra-resin-3d-printer-12k"
             description = "(218.88mm x 218.88mm x 260mm)"
+            />
+
+            <IndividualEquipment
+            image = {elegoo4}
+            header = "ELEGOO Saturn Ultra 4"
+            link="https://us.elegoo.com/products/saturn-4-ultra-12k-10inch-monochrome-lcd-resin-3d-printer"
+            description = "(218.88mm x 122.88mm x 220mm)"
             />
 
             <IndividualEquipment
