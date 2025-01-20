@@ -8,9 +8,16 @@
   import HomepageCardMobile from '$lib/components/HomepageCardMobile.svelte';
   import Separator from '$lib/components/Separator.svelte';
   import '@fortawesome/fontawesome-free/css/all.min.css';
+
+  function scrollToNextSection() {
+    const nextSection = document.getElementById('next-section');
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 </script>
 
-<div class="font-plex-mono font-bold flex flex-col items-center justify-center w-screen h-screen text-center text-orange">
+<div class="font-plex-mono font-bold flex flex-col items-center justify-center w-screen h-screen text-center text-orange px-4 md:px-20">
   <p class="mt-10 md:text-4xl text-xl">
     Welcome to the...
   </p>
@@ -23,16 +30,22 @@
   <p class="mt-2 md:text-3xl text-xl">
     Premier Makerspace.
   </p>
-  <div class="mt-5 font-plex-mono md:text-xl text-lg bg-nav-purple rounded-full w-auto h-auto py-2 px-6">
+  <!-- <div class="mt-5 font-plex-mono md:text-xl text-lg bg-nav-purple rounded-full w-auto h-auto py-2 px-6">
     Get Started &gt;
-  </div>
+  </div> -->
+
+  <button
+    on:click={scrollToNextSection}
+    class="mt-10 animate-bounce flex items-center justify-center focus:outline-none">
+    <i class="fas fa-chevron-down text-orange text-4xl"></i>
+  </button>
 </div>
 
 
 <Separator/>
 
-<div class="font-plex-mono flex flex-col h-screen w-screen text-orange">
-  <p class="text-white font-bold md:text-4xl text-2xl mb-4 md:px-20">
+<div id="next-section" class="font-plex-mono flex flex-col h-screen w-screen text-orange">
+  <p class="text-white font-bold md:text-4xl text-2xl mb-4 px-4 md:px-20">
     OUR SERVICES
   </p>
   <div class="md:block hidden h-5/6 w-screen">
