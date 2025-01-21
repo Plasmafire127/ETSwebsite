@@ -68,7 +68,7 @@
      />
      <About
      image="/images/default.png"
-     name="Timothy Tram"
+     name="Timothy Tran"
      position="3D Design Specialist"
      major="Mechanical Engineering"
      year="Sophomore"
