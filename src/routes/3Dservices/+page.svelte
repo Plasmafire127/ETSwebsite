@@ -5,20 +5,20 @@
     import Separator from '$lib/components/Separator.svelte';
 </script>
 
-<div class="flex flex-col md:h-screen h-full w-screen text-orange">
+<div class="flex flex-col md:h-screen h-full w-screen text-orange px-6 md:px-20">
     <Overview 
-    video = '/videos/benchyweb.webm'
-    header = "3D PRINTS OVERVIEW"
-    subheaderone = "How to Request"
-    paragraphone = "1. Have your file in either STL, 3MF, or STEP.
-2. Send us an email to etsbing@binghamton.edu.
-    &#8226; Attach the file.
-    &#8226; Specify color and material.
-    &#8226; Optionally, specify infill, strength, etc.
-3. Wait for our response email.
-4. Visit the ETS at the Tech hub!"
-    subheadertwo = "how to Pay"
-    paragraphtwo = "You don't! This semester, prints are based on a credit system."
+        video="/videos/benchyweb.webm"
+        header="3D PRINTS OVERVIEW"
+        subheaderone="How to Request"
+        paragraphone={`1. Have your file in either STL, 3MF, or STEP.
+2. Go to myBinghamton
+3. Click on Emerging Technology Studio (ETS) on the navigation bar under BUBrain logo
+    - If it is not there click on "other" on the navigation bar
+    - Then click on Emerging Technology Studio (ETS)
+4. Click on the blue Submission Form button
+5. Fill it out and wait for our email!`}
+        subheadertwo="How to Pay"
+        paragraphtwo="You don't! This semester, prints are based on a credit system. If you run out of credits, reach out to us with justification to get more!"
     />
 </div>
 

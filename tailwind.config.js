@@ -7,8 +7,9 @@ export default {
       'nav-purple': '#332945',
       'accent-purple': '#4d455c',
       'accent-dark': '#2D292F',
+      'primary-purple': '#8f596c',
       'orange': '#c2a47e',
-      'background': '#231c24',
+      'background': '#231e24',
       'gray':'#D9D9D9',
       'white':'#ffffff',
       'black':'#000000',
@@ -38,3 +39,4 @@ export default {
   },
   plugins: []
 };
+

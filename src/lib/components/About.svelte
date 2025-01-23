@@ -13,7 +13,7 @@
         <div class="text-orange md:text-lg text-xs">
             {major}
         </div>
-        <div class="text-nav-purple md:text-base text-xs">
+        <div class="text-primary-purple md:text-base text-xs">
             {year}
         </div>
     </div>

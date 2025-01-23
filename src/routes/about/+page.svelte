@@ -32,77 +32,77 @@
      year="Senior"
      />
      <About
-     image="/images/etspaul.jpg"
+     image="/images/etspaulito.JPG"
      name="Paul Ampadu"
      position="ML/Computer Graphics Specialist"
      major="Computer Science"
      year="Senior"
      />
      <About
-     image="/images/default.png"
+     image="/images/etswinnie.JPG"
      name="Winnie Yong"
      position="Cricut Specialist"
      major="Computer Science"
      year="Senior"
      />
      <About
-     image="/images/default.png"
+     image="/images/etsrachel.JPG"
      name="Rachel Koppelman"
      position="Materials Specialist"
      major="Mechanical Engineering"
      year="Senior"
      />
      <About
-     image="/images/etssam.jpg"
+     image="/images/etssam.JPG"
      name="Sam Abramson"
      position="Robotics Specialist"
      major="Mechanical Engineering"
      year="Senior"
      />
      <About
-     image="/images/default.png"
+     image="/images/etsjake.JPG"
      name="Jake Digiugno"
      position="3D Engine Specialist"
      major="Computer Science"
      year="Junior"
      />
      <About
-     image="/images/default.png"
+     image="/images/etstim.JPG"
      name="Timothy Tram"
      position="3D Design Specialist"
      major="Mechanical Engineering"
      year="Sophomore"
      />
      <About
-     image="/images/default.png"
+     image="/images/etserick.JPG"
      name="Erick Palka"
      position="Automotive Specialist"
      major="Mechanical Engineering"
      year="Sophomore"
      />
      <About
-     image="/images/etsnathan.jpg"
+     image="/images/etsnathan.JPG"
      name="Nathan Teig"
      position="Manufacturing Specialist"
      major="Mechanical Engineering"
      year="Junior"
      />
      <About
-     image="/images/etsstella.jpg"
+     image="/images/etsstella.JPG"
      name="Stella Hung"
      position="2D Design Specialist"
      major="Graphic Design"
      year="Junior"
      />
      <About
-     image="/images/default.png"
+     image="/images/etsjo.png"
      name="Joanna Fishman"
      position="Media Specialist"
      major="Cinema"
      year="Senior"
      />
      <About
-     image="/images/etsdavid.jpg"
+     image="/images/etsdavid.JPG"
      name="David Poncé"
      position="A.I. Specialist"
      major="Computer Science"

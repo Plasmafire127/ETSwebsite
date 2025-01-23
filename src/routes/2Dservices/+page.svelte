@@ -21,8 +21,8 @@
                         &#8226; See below for more specific description.
                     3. Wait for our response email.
                     4. Visit the ETS at the Tech hub!"
-    subheadertwo = "how to Pay"
-    paragraphtwo = "You don't! This semester, prints are based on a credit system."
+    subheadertwo = "How to Pay"
+    paragraphtwo = "You don't! Every week, you can print out one sticker sheet for free. If you would like to do bulk prints, be sure to bring in your own material and we will teach you how to cut the stickers yourself"
     />
 </div>
 
@@ -32,7 +32,6 @@
     <IndividualEquipment
     image = {sticker}
     header = "Stickers"
-    price = "$0.50/sheet"
     craftdescription = 
    "&#8226; PNG, JPEG, SVG Files
     &#8226; Width & Height (inches)
@@ -45,7 +44,6 @@
     <IndividualEquipment
     image = {cardstock}
     header = "Card-Stock"
-    price = "$0.80/sheet"
     craftdescription = 
    "&#8226; PNG, JPEG, PDF Files
     &#8226; Double Sided?
@@ -57,7 +55,6 @@
     <IndividualEquipment
     image = {ironon}
     header = "Iron-On"
-    price = "$0.02/in&sup2"
     craftdescription = 
    "&#8226; PNG, JPEG, SVG Files
     &#8226; Width & Height (inches)
@@ -69,7 +66,6 @@
     <IndividualEquipment
     image = {vinyl}
     header = "Vinyl"
-    price = "$0.02/in&sup2"
     craftdescription = 
    "&#8226; PNG, JPEG, SVG Files
     &#8226; Width & Height (inches)
@@ -80,7 +76,6 @@
     <IndividualEquipment
     image = {acrylic}
     header = "Acrylic"
-    price = "$0.50/circle"
     craftdescription = 
    "&#8226; PNG, JPEG, SVG Files
     &#8226; Width & Height (inches)
