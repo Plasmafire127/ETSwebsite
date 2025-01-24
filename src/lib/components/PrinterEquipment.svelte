@@ -75,12 +75,12 @@
             description = "(145mm x 145mm x 185mm)"
             />
 
-            <IndividualEquipment
+            <!-- <IndividualEquipment
             image = {form4}
             header = "Formlabs Form 4"
             link="https://formlabs.com/3d-printers/form-4/"
             description = "(200mm x 125mm x 210 mm)"
-            />
+            /> -->
 
     </div>
     </div>

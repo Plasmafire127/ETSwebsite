@@ -25,70 +25,70 @@
 <!-- Employees Section -->
 <div class="h-full w-screen grid md:grid-cols-3 grid-cols-2 md:px-20 px-5">
      <About
-     image="/images/etsvan.jpg"
+     image="/images/etsvan.png"
      name="Van James Huynh"
      position="Director"
      major="Industrial Systems Engineering"
      year="Senior"
      />
      <About
-     image="/images/etspaulito.JPG"
+     image="/images/etspaulito.png"
      name="Paul Ampadu"
      position="ML/Computer Graphics Specialist"
      major="Computer Science"
      year="Senior"
      />
      <About
-     image="/images/etswinnie.JPG"
+     image="/images/etswinnie.png"
      name="Winnie Yong"
      position="Cricut Specialist"
      major="Computer Science"
      year="Senior"
      />
      <About
-     image="/images/etsrachel.JPG"
+     image="/images/etsrachel.png"
      name="Rachel Koppelman"
      position="Materials Specialist"
      major="Mechanical Engineering"
      year="Senior"
      />
      <About
-     image="/images/etssam.JPG"
+     image="/images/etssam.png"
      name="Sam Abramson"
      position="Robotics Specialist"
      major="Mechanical Engineering"
      year="Senior"
      />
      <About
-     image="/images/etsjake.JPG"
+     image="/images/etsjake.png"
      name="Jake Digiugno"
      position="3D Engine Specialist"
      major="Computer Science"
      year="Junior"
      />
      <About
-     image="/images/default.png"
+     image="/images/etstim.png"
      name="Timothy Tran"
      position="3D Design Specialist"
      major="Mechanical Engineering"
      year="Sophomore"
      />
      <About
-     image="/images/etserick.JPG"
+     image="/images/etserick.png"
      name="Erick Palka"
      position="Automotive Specialist"
      major="Mechanical Engineering"
      year="Sophomore"
      />
      <About
-     image="/images/etsnathan.JPG"
+     image="/images/etsnathan.png"
      name="Nathan Teig"
      position="Manufacturing Specialist"
      major="Mechanical Engineering"
      year="Junior"
      />
      <About
-     image="/images/etsstella.JPG"
+     image="/images/etsstella.png"
      name="Stella Hung"
      position="2D Design Specialist"
      major="Graphic Design"
@@ -102,7 +102,7 @@
      year="Senior"
      />
      <About
-     image="/images/etsdavid.JPG"
+     image="/images/etsdavid.png"
      name="David Poncé"
      position="A.I. Specialist"
      major="Computer Science"

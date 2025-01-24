@@ -3,7 +3,7 @@
 </script>
 <div class="h-full w-full items-center text-center font-plex-mono md:font-bold font-normal">
     <div class="h-full w-full flex flex-col items-center">
-        <img class="h-full w-1/2 object-cover mb-2 mt-4" alt="thumbnail" src={image}/>
+        <img class="thumbnail" alt="thumbnail" src={image}/>
         <div class="text-white md:text-3xl text-xs font-bold">
             {name}
         </div>
@@ -18,3 +18,11 @@
         </div>
     </div>
 </div>
+<style>
+    img.thumbnail {
+        width: 50%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 5%;
+    }
+</style>

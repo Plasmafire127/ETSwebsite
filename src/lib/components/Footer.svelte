@@ -65,7 +65,7 @@
       <p>Thur</p>
       <p>10:00 AM - 06:00 PM</p>
       <p>Fri</p>
-      <p>10:00 AM - 06:00 PM</p>
+      <p>12:00 AM - 05:00 PM</p>
       <p>Sat/Sun</p>
       <p>CLOSED</p>
     </div>
