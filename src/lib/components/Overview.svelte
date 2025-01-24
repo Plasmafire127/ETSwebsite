@@ -26,3 +26,11 @@
         </p>
     </div>
 </div>
+
+<style>
+    .rounded-lg {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+</style>
