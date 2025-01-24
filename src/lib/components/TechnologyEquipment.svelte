@@ -3,24 +3,29 @@
     export let description = "";
 </script>
 
-<div class="flex flex-col h-full font-plex-mono items-center text-white my-5 md:px-20 px-5 py-10">
-    <p class="flex flex-row h-full w-full md:text-5xl text-3xl font-bold">
+<div class="font-plex-mono text-white my-5 md:px-20 px-5 py-10">
+    <p class="w-full md:text-5xl text-3xl font-bold text-left mb-5">
         {header}
     </p>
-    <div class="flex flex-row h-full w-full mt-10">
-        <div class="md:flex hidden h-full w-1/3 mr-10"> <!-- add justify-center if you want images center.-->
-            <img class="h-full w-full object-cover rounded-lg" alt="thumbnail" src={image}/>
+
+    <div class="flex flex-col md:flex-row items-start">
+        <div class="flex flex-col md:w-1/2 w-full items-center md:items-start">
+            <div class="flex w-full justify-center md:justify-start">
+                <img 
+                    class="w-full max-w-md h-auto object-cover rounded-lg shadow-lg" 
+                    alt="thumbnail" 
+                    src={image}
+                />
+            </div>
         </div>
-        <div class="flex flex-col h-full w-2/3 font-bold md:text-4xl text-lg justify-center my-auto"> <!-- not sure how to center this w/o my-auto-->
-            <p class="italic">
+        
+        <div class="flex flex-col md:w-1/2 w-full font-bold md:pl-3 mt-5 md:mt-0">
+            <p class="italic md:text-3xl text-xl text-left">
                 {subheader}
             </p>
-            <p class="md:text-xl text-xs text-orange md:pl-5">
+            <p class="md:text-xl text-sm text-orange mt-2 text-left">
                 {description}
             </p>
-        </div>
-        <div class="flex flex-col md:hidden h-full w-1/3 ml-10"> <!-- add justify-center if you want images center.-->
-            <img class="h-full w-full object-cover rounded-lg" alt="thumbnail" src={image}/>
         </div>
     </div>
 </div>

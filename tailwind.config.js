@@ -7,7 +7,7 @@ export default {
       'nav-purple': '#332945',
       'accent-purple': '#4d455c',
       'accent-dark': '#2D292F',
-      'primary-purple': '#8f596c',
+      'lightPurple': '#9A7FB5',
       'orange': '#c2a47e',
       'background': '#231e24',
       'gray':'#D9D9D9',

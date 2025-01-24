@@ -1,6 +1,6 @@
 <script>
     import Overview from '$lib/components/Overview.svelte';
-    import temp from '$lib/images/temp.png';
+    import temp from '$lib/images/new2print.png';
     import PrinterEquipment from '$lib/components/PrinterEquipment.svelte';
     import Separator from '$lib/components/Separator.svelte';
 </script>
@@ -55,7 +55,7 @@
                 <a href="https://thangs.com/marketplace/memberships?utm_source=google&utm_medium=cpc&utm_campaign=brandedsearch&gad_source=1&gclid=Cj0KCQjw-5y1BhC-ARIsAAM_oKk_y5xTKj1XS7Q4jkNPeufSiD4RXCrUDuEq7VGglP_jBjbkc6kvxBEaAgMkEALw_wcB" class="hover:text-link hover:scale-105 transition-all duration-150">4. Thangs - <span class="italic">free 3D models</span></a>
             </div>
         </div>
-        <div class="md:flex hidden w-1/3 h-full justify-center">
+        <div class="md:flex hidden w-1/2 h-full justify-center">
             <img class="h-full w-1/2 object-cover" alt="thumbnail" src={temp}/>
         </div>
     </div>

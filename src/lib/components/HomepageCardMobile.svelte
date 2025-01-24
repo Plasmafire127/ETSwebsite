@@ -17,16 +17,13 @@
             <p class="text-lg">{header}</p>
             <p class="text-xs italic font-bold text-italic-gray">{motto}</p>
         </div>
-        <!-- <div class="font-plex-mono text-orange text-xxs font-bold bg-nav-purple w-fit rounded-full p-1">
-            {link} &gt;
-        </div> -->
-        <div class="flex flex-col text-xxs">
+        <div class="flex flex-col text-xs">
             <p>{one}</p>
             <p>{two}</p>
             <p>{three}</p>
         </div>
-        <div class="font-plex-mono text-orange text-xxs font-bold bg-nav-purple w-fit rounded-full p-1">
-            <a href={link} target="_blank" rel="noopener noreferrer" class="hover:underline">
+        <div class="font-plex-mono text-orange text-xs font-bold bg-nav-purple w-fit rounded-full p-1">
+            <a href={link} class="hover:underline">
               {buttonText}
             </a>
           </div>

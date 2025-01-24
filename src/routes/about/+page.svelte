@@ -67,8 +67,8 @@
      year="Junior"
      />
      <About
-     image="/images/etstim.JPG"
-     name="Timothy Tram"
+     image="/images/default.png"
+     name="Timothy Tran"
      position="3D Design Specialist"
      major="Mechanical Engineering"
      year="Sophomore"
