@@ -41,7 +41,7 @@
         <div class="hidden md:flex flex-row justify-end w-3/4">
             <div class="flex flex-row items-center text-orange md:text-lg text-s space-x-5 md:space-x-10">
                 <Dropdown />
-                <a href="/workshop" class="hover:underline">Workshop</a>
+                <a href="/workshop" class="hover:underline">Workshops</a>
                 <a href="/about" class="hover:underline">About</a>
                 <a href="/location" class="hover:underline">Location</a>
             </div>
@@ -90,7 +90,7 @@
                 </div>
 
                 <a href="/workshop" class="text-orange font-bold px-2 py-2 hover:bg-gray-700 rounded">
-                    Workshop
+                    Workshops
                 </a>
         
                 <a href="/about" class="text-orange font-bold px-2 py-2 hover:bg-gray-700 rounded">

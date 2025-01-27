@@ -8,13 +8,13 @@
         learn with us at our ...
     </p>
     <p class="font-space-grotesk md:text-7xl text-4xl font-extrabold">
-        Workshop & Events
+        Workshops & Events
     </p> 
     <p class="md:mt-40 mt-20 md:text-2xl text-lg text-green">
         Check out our Calendar for updates!
     </p>
     <p class="md:text-xl text-base md:px-64 px-10">
-        We host monthly workshop and occasionally special events in collaboration with other groups on campus. If you are a club and want to collaborate with us, please email us at etsbing@binghamton.edu!
+        We host monthly workshops and occasionally special events in collaboration with other groups on campus. If you are a club and want to collaborate with us, please email us at etsbing@binghamton.edu!
         We announce our events on our mailing list and on our Instagram. We hope to see you there!
     </p>
 </div>
