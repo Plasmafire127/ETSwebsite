@@ -30,9 +30,9 @@
     </div>
     <div class="flex flex-row flex-wrap items-center justify-center pt-5">
         {#each colors as [color,name]}
-        <div>
-            <div class="md:w-32 w-16 md:h-32 h-16 md:mx-8 mx-4 mt-4 mb-2 rounded-lg border-white border-2" style="background-color: {color};"></div>
-            <div class="text-center font-bold italic md:text-md text-xs">{name}</div>
+        <div class="hover:scale-110 transition ease-in-out">
+            <div class="md:w-32 w-16 md:h-32 h-16 md:mx-8 mx-4 mt-4 mb-2 rounded-lg border-white border-2 transition ease-linear hover:drop-shadow-[0_35px_35px_rgba(255,255,255,0.15)]" style="background-color: {color};"></div>
+            <div class="text-center font-bold md:text-md text-xs">{name}</div>
         </div>
         {/each}
     </div>
