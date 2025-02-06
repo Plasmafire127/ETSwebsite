@@ -3,6 +3,7 @@
     import temp from '$lib/images/new2print.png';
     import PrinterEquipment from '$lib/components/PrinterEquipment.svelte';
     import Separator from '$lib/components/Separator.svelte';
+    import AvailableColors from '$lib/components/AvailableColors.svelte';
 </script>
 
 <div class="flex flex-col md:h-screen h-full w-screen text-orange px-6 md:px-20">
@@ -11,11 +12,9 @@
         header="3D PRINTS OVERVIEW"
         subheaderone="How to Request"
         paragraphone={`1. Have your file in either STL, 3MF, or STEP.
-2. Go to myBinghamton
-3. Click on Emerging Technology Studio (ETS) on the navigation bar under BUBrain logo
-    - If it is not there click on "other" on the navigation bar
-    - Then click on Emerging Technology Studio (ETS)
-4. Click on the blue Submission Form button
+2. Go to my.binghamton.edu
+3. Click "Emerging Technology Studio" on the navigation bar under BUBrain logo (Check "Other" if missing)
+4. Click the blue Submission Form button
 5. Fill it out and wait for our email!`}
         subheadertwo="How to Pay"
         paragraphtwo="You don't! This semester, prints are based on a credit system. If you run out of credits, reach out to us with justification to get more!"
@@ -26,6 +25,12 @@
 
 <div class="h-full w-screen">
     <PrinterEquipment/>
+</div>
+
+<Separator/>
+
+<div class="h-full w-screen">
+    <AvailableColors/>
 </div>
 
 <Separator/>
