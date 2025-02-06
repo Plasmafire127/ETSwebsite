@@ -17,7 +17,7 @@
   <meta property="og:type" content="website" />
 
   <!-- Favicon -->
-  <link rel="icon" href="/static/ets-favicon.ico" />
+  <link rel="icon" href="/static/favicon.png" />
 </svelte:head>
 
 <!-- Add FontAwesome Icons -->
